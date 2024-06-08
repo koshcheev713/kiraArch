@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-terminal" version="1.0">
+  <property name="background-mode" type="string" value="TERMINAL_BACKGROUND_TRANSPARENT"/>
+  <property name="background-darkness" type="double" value="0"/>
+  <property name="color-cursor-use-default" type="bool" value="true"/>
+  <property name="color-selection-use-default" type="bool" value="true"/>
+  <property name="background-image-file" type="string" value="/home/kira/media/wallpapers/original-characters-anime-girls-alcohol-the-lm7-wallpaper-preview.jpg"/>
+  <property name="misc-slim-tabs" type="bool" value="false"/>
+</channel>

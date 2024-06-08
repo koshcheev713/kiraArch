@@ -1,9 +1,9 @@
 # Arch Linux Kira's setup 
 ## Настройка Arch Linux после установки
 
-Window manager(bswpm), keybord(sxhkd), menu(rofi), bar(polybar)
+Window manager(bswpm), keybord(sxhkd), menu(rofi), bar(polybar), terminal(alacritty)
 
-	sudo pacman -S pacman -S bspwm sxhkd rofi polybar
+	sudo pacman -S pacman -S bspwm sxhkd rofi polybar alacritty
 
 Xorg/X11
 	
@@ -43,3 +43,14 @@ Wallpapers
 
 
 Bspwm и sxhkd запускаются автозагрузкой в .xinitrc, но все сторонние преложения запускаются через ~/.confir/bspwm/bspwmrc
+
+Install YAY
+
+	pacman -Sy --needed git base-devel
+	git clone https://aur.archlinux.org/yay.git
+	cd yay
+	makepkg -si
+
+Install picom with yay
+	
+	yay -S picom-git
