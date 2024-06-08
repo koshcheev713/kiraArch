@@ -2,13 +2,15 @@
 # wm independent hotkeys
 #
 
+# System task 
+
 # terminal emulator
 super + Return
 	alacritty
 
 # program launcher
 super + @space
-	rofi -combi-modi window,drun -theme solarized -font "hack 12" -show combi 
+	rofi -combi-modi drun,window -theme ~/.config/rofi/arthurKiraTheme -font "hack 12" -show combi 
 
 # make sxhkd reload its configuration files:
 super + Escape

@@ -54,3 +54,15 @@ Install YAY
 Install picom with yay
 	
 	yay -S picom-git
+
+
+## Additional!
+    sudo pacman -S neovim
+    sudo pacman -S ranger
+    
+Zsh
+
+    sudo pacman -S zsh
+    install ohmyzsh
+    chsh -s /bin/zsh
+    source ~/.zshrc
