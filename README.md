@@ -66,3 +66,9 @@ Zsh
     install ohmyzsh
     chsh -s /bin/zsh
     source ~/.zshrc
+
+Display brightness:
+
+    https://wiki.archlinux.org/title/Backlight
+    
+    https://github.com/polybar/polybar/wiki/Module:-backlight
