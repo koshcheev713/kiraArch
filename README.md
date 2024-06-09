@@ -72,3 +72,8 @@ Display brightness:
     https://wiki.archlinux.org/title/Backlight
     
     https://github.com/polybar/polybar/wiki/Module:-backlight
+
+If problem with unicode in firefox, terminal
+
+    sudo pacman -S noto-fonts-emoji
+    sudo pacman -S noto-fonts-cjk
