@@ -1,0 +1,12 @@
+--ignore-errors
+# --no-playlist
+
+# Prefer 1080p or lower resolutions
+-f bestvideo[height<=?1080]+bestaudio/best
+
+#download playlist
+#yt-dlp --ignore-errors --continue --no-overwrites --download-archive progress.txt usual options URL
+--ignore-errors 
+--continue 
+--no-overwrites 
+--download-archive 

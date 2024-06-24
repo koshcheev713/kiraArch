@@ -77,3 +77,12 @@ If problem with unicode in firefox, terminal
 
     sudo pacman -S noto-fonts-emoji
     sudo pacman -S noto-fonts-cjk
+
+Nvim 
+    sudo pacman -S nvim
+
+Video player
+    sudo pacman -S mpv
+
+File manager
+    sudo pacman -S ranger

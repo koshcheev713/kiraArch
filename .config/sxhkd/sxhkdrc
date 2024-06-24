@@ -2,19 +2,26 @@
 # wm independent hotkeys
 #
 
-# System task 
+super + F2
+    pactl -- set-sink-volume 0 -1%
 
+super + F3
+    pactl -- set-sink-volume 0 +1%
+
+super + F4
+    pactl -- set-sink-volume 0 0%
 # terminal emulator
 super + Return
 	alacritty
 
 # program launcher
 super + @space
-	rofi -combi-modi drun,window -theme ~/.config/rofi/arthurKiraTheme -font "hack 12" -show combi 
+    rofi -combi-modi drun,window -theme "~/.config/rofi/arthurKiraTheme" -font "hack 10" -show combi
+#    rofi -show combi -modes combi -combi-modes "window,drun,run"
 
 # make sxhkd reload its configuration files:
 super + Escape
-	pkill -USR1 -x sxhkd
+	rofi -show p -modi p:rofi-power-menu
 
 #
 # bspwm hotkeys
